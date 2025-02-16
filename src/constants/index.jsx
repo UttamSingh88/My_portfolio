@@ -17,7 +17,7 @@ import projectImage6 from "../assets/project6.jpeg";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { FaPython } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -111,9 +111,9 @@ export const SKILLS = [
     experience: "1.5+ years",
   },
   {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
-    experience: "1+ year",
+    icon: <FaPython className="text-4xl text-yellow-600 lg:text-5xl" />,
+    name: "pyhton",
+    experience: "1000+ year",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
